@@ -1,0 +1,15 @@
+{
+  "name": "listfilegenerator",
+  "version": "0.1.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "electron": "^16.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "epasaa550",
+  "license": "ISC"
+}

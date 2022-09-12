@@ -1,0 +1,123 @@
+
+body {
+
+}
+
+#container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+
+}
+
+#path-inputs {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.text-inputs {
+    width: 40%;
+}
+
+.drag {
+    margin-top: 10px;
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-drag {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-drag {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.border {
+    margin: 1em;
+    width: 3em;
+    height: 3em;
+}
+
+.border-t-r {
+
+    border-right:solid black 0.5em;
+    border-top:solid black 0.5em;
+    border-top-right-radius: 25px;
+
+}
+.border-t-l {
+
+    border-left:solid black 0.5em;
+    border-top:solid black 0.5em;
+    border-top-left-radius: 25px;
+
+}
+
+.border-b-l {
+    
+    border-left:solid black 0.5em;
+    border-bottom:solid black 0.5em;
+    border-bottom-left-radius: 25px;
+}
+
+.border-b-r {
+    
+    border-right:solid black 0.5em;
+    border-bottom:solid black 0.5em;
+    border-bottom-right-radius: 25px;
+
+}
+
+#drag {
+    background-color: lightblue;
+}
+
+#source {
+    background-color: lightblue;
+}
+
+#drag-box {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+img {
+    width: 90px;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.hard-hide {
+    display: none;
+}
+
+input[type="button"] {
+    margin-top: 1em;
+}
+
+.mid-drag {
+    height: 10em;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>ListFileGenerator</title>
+  </head>
+  <body>
+      <div id="container">
+        <div id="path-inputs">
+          <input type="text" name="path" id="path" placeholder="VO Path" class="text-inputs">
+          <input type="text" name="source"  placeholder="SOURCE Path"class=" text-inputs">
+        </div>
+        <div id="drag-box-container">
+          <div id="drag-box">
+            <div id="drag" class="drag" draggable="true">
+              <div class="top-drag">
+                <div class="border border-t-l hide"></div>
+                <div class="border border-t-r hide"></div>
+              </div>
+              <div class="mid-drag">
+                <img src="./img/file.png" id="vo-img" alt="add file" class="hard-hide">
+                <h1>VO</h1>
+              </div>
+              <div class="bottom-drag">
+                <div class="border border-b-l hide"></div>
+                <div class="border border-b-r hide"></div>
+              </div>
+            </div>
+            <div id="source" class="drag" draggable="true">
+              <div class="top-drag">
+                <div class="border border-t-l hide"></div>
+                <div class="border border-t-r hide"></div>
+              </div>
+              <div class="mid-drag">
+                <img src="./img/file.png" id="src-img" alt="add file" class="hard-hide">
+                <h1>SOURCE</h1>
+              </div>
+              <div class="bottom-drag">
+                <div class="border border-b-l hide"></div>
+                <div class="border border-b-r hide"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <input type="button" value="Generate">
+      </div>
+      <script src="./js/index.js"></script>
+  </body>
+</html>
